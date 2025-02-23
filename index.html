@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OptimizeX - Professional PC Optimization</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -63,27 +64,14 @@
 
     <section id="contact" class="contact">
         <h2>Get in Touch</h2>
-        <form id="contact-form">
-            <div class="form-group">
-                <input type="text" id="name" name="name" required placeholder="Your Name">
-            </div>
-            <div class="form-group">
-                <input type="email" id="email" name="email" required placeholder="Your Email">
-            </div>
-            <div class="form-group">
-                <select id="service" name="service" required>
-                    <option value="" disabled selected>Select Service</option>
-                    <option value="input-delay">Zero Input Delay</option>
-                    <option value="overclocking">Overclocking</option>
-                    <option value="custom-os">Custom OS</option>
-                    <option value="complete-package">Complete Package</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
-            </div>
-            <button type="submit" class="submit-button">Send Message</button>
-        </form>
+        <div class="contact-options">
+            <a href="https://discord.com/users/bradygov" target="_blank" rel="noopener noreferrer" class="social-button discord">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://wa.me/27659361165" target="_blank" rel="noopener noreferrer" class="social-button whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
     </section>
 
     <footer>
