@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptimizeX - Professional PC Optimization</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <div class="logo">OptimizeX</div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Professional PC Optimization Services</h1>
+            <p>Unlock your PC's true potential with our expert tweaking services</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Zero Input Delay</h3>
+                <p>Experience instant response with our zero input delay optimization. Perfect for gaming and professional work.</p>
+                <ul>
+                    <li>Input lag elimination</li>
+                    <li>System latency optimization</li>
+                    <li>Driver optimization</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🚀</div>
+                <h3>Professional Overclocking</h3>
+                <p>Safe and stable overclocking to maximize your hardware performance.</p>
+                <ul>
+                    <li>CPU & GPU overclocking</li>
+                    <li>Memory timing optimization</li>
+                    <li>Thermal optimization</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Custom OS Installation</h3>
+                <p>Streamlined and optimized Windows installation for peak performance.</p>
+                <ul>
+                    <li>Debloated Windows setup</li>
+                    <li>Performance-focused configuration</li>
+                    <li>Essential-only services</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option value="input-delay">Zero Input Delay</option>
+                    <option value="overclocking">Overclocking</option>
+                    <option value="custom-os">Custom OS</option>
+                    <option value="complete-package">Complete Package</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OptimizeX. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
